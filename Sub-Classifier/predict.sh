@@ -1,0 +1,1 @@
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES=0 allennlp predict ./new_fine_tune/model.tar.gz ./data/newtest.json --include-package library --predictor sentence_classifier_predictor  

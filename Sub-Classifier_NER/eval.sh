@@ -1,0 +1,1 @@
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES=0 allennlp evaluate whole/model.tar.gz ./data/test.txt --include-package models

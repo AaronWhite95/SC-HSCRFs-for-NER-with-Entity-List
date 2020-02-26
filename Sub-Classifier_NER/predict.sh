@@ -1,0 +1,1 @@
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES=6 allennlp predict ./r2gai/model.tar.gz ./data/pred.json --include-package models --predictor CON_NER_predictor  

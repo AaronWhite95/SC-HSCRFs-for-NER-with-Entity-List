@@ -1,0 +1,1 @@
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES=3 allennlp train configs/softDictionary_HSCRF.conll2003.config -s softdict_directory/ --include-package models

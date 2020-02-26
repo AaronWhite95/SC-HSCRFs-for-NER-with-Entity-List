@@ -1,0 +1,1 @@
+CUDA_DEVICE_ORDER="PCI_BUS_ID" CUDA_VISIBLE_DEVICES=0 allennlp evaluate ./new_fine_tune/model.tar.gz ./data/newtest.txt --include-package library
